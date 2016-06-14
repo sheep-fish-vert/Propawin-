@@ -1,4 +1,3 @@
-
 header{background: url('https://propawin.com/uploads/public/bg1.jpg') no-repeat; background-size: cover; background-position: 50% 50%;
 	.mbox{font-family: 'PT Serif', serif;
 		.heading{display: flex; align-items: center; justify-content: space-between;
@@ -18,8 +17,8 @@ header{background: url('https://propawin.com/uploads/public/bg1.jpg') no-repeat;
 				.heading{color: #fdda0c;  font-size: 39px;line-height: 1.25; letter-spacing: 0.1px;
 
 				}
-				.main-text{line-height: 1.9;padding: 0 40px 20px;
-					p{white-space: pre-line; 	
+				.main-text{line-height: 1.6;padding: 5px 40px 20px;
+					p{white-space: pre-line; font-size: 18px;	
 					}
 				}	
 				.button{padding-bottom: 185px;
@@ -61,23 +60,23 @@ header{background: url('https://propawin.com/uploads/public/bg1.jpg') no-repeat;
 .five-more-reasons{ background: url('https://propawin.com/uploads/public/bg3.jpg') no-repeat; background-size: cover; background-position: 50% 50%;
 	.mbox{display: flex; justify-content: center;padding-left: 70px;font-family: 'PT Serif', serif;
 		.main-contein{ width: 80%;padding-top: 110px; display: flex; flex-wrap: wrap;
-			.heading{color: #f9e100; text-align: center; padding:  0 40px 25px 0; width: 100%;
+			.heading{color: #f9e100; text-align: center; padding:  0 60px 25px 0; width: 100%;
 				h2{margin: 0px; font-size: 38px; text-transform: uppercase;}
 			}
-			.image-wrapper{ width: 50%;
+			.image-wraper{padding-top: 30px;
 				img{
 					
 				}
 			}
 			.items-list{ flex: 1;
-				ul{ list-style: none;
-					li{color: #fff; padding: 0px 30px 17px 0; font-size: 18px; font-weight: bold;
-						&:before{content: " ";min-width: 10px; max-width: 10px; min-height: 10px;  display:inline-block; background: linear-gradient(left top, transparent 50%, #f9e100 50%); transform: rotate(-45deg);margin-right: 30px;	
+				ul{ list-style: none;padding-left: 25px;
+					li{color: #fff; padding: 0px 30px 17px 0; font-size: 19px; font-weight: bold; word-spacing: 3px;
+						&:before{content: " ";min-width: 10px; max-width: 10px; min-height: 10px;  display:inline-block; background: linear-gradient(to right bottom, transparent 50%, #f9e100 50%); transform: rotate(-45deg);margin-right: 30px;	
 						}
 					}
 				}
 			}
-			.button{display: flex; justify-content: center; width: 100%;padding: 15px 0 115px;
+			.button{display: flex; justify-content: center; width: 100%;padding: 15px 50px 115px 0px;
 				
 			}
 		}
@@ -118,19 +117,65 @@ header{background: url('https://propawin.com/uploads/public/bg1.jpg') no-repeat;
 
 .faq{background: url('https://propawin.com/uploads/public/bg5.jpg') no-repeat; background-size: cover; background-position: 50% 50%;
 	.mbox{color: #fff; font-family: 'PT Serif', serif;
-		.heading{ 
-			h2{margin: 0px;}
+		.heading{ text-align: center; padding: 105px 0 40px 15px;
+			h2{margin: 0px; font-size: 39px; color: #efcc7a;}
 		}
-		.main-content{
-			.question{
+		.main-content{padding: 0 100px 80px 95px;
+			.question{padding-bottom: 15px;
 				.question-heading{
-					h3{}
+					&:before{content: " ";min-width: 10px; max-width: 10px; min-height: 10px;  display:inline-block; background: linear-gradient(to right bottom, transparent 50%, #f9e100 50%); transform: rotate(-45deg);margin-right: 15px;	
+						}
+					h3{display: inline-block; font-size: 22px; color: #efcc7a; letter-spacing: 1px;margin-bottom: 0px;
+					}
 				}
 				.question-contein{
-					
+					p{font-size: 21px; line-height: 1.3;}
 				}
 			}
 		}
+	}	
+}
+
+.contact-us{background: url('https://propawin.com/uploads/public/bg6.jpg') no-repeat; background-size: cover; background-position: 50% 50%;
+	.mbox{font-family: 'PT Serif', serif;
+		.heading{ color: #fff; text-align: center;padding: 85px 0 50px 0;
+			h3{margin: 0px; font-size: 39px; text-transform: uppercase;}
+		}
+		.contact-data{ display: flex; flex-wrap: wrap; padding: 0 0 90px 130px;
+			.data{margin: 0 30px 0px 0;  padding-bottom: 30px;
+				img{display: inline-block;margin: 0 10px 0 0;
+					
+				}
+				a{ text-decoration: none; color: #fff;  display: inline-block;
+					font-size: 20px; line-height: 1.2;
+				}
+			}
+			.location{width: 100%; 
+				a{white-space: pre-line;}
+				img{vertical-align: top;
+					
+				}
+				
+			
+			}
+		}
+
 	}
-	
+}
+.footer_placeholder{ height: 350px!important; background-color: #000; }
+.footer{background-color: #000; 
+	.mbox{font-family: 'PT Serif', serif; padding: 0 0 210px 0; 
+		.image-wrapper{padding: 0 0 40px;
+			img{color: #bbb;
+			}
+		}
+		.line{ width: 100%; min-height: 1px;  background-color: #bbb; margin: 0 0 30px; 
+			
+		}
+		.text-content{ text-align: center;padding: 0 18px;
+			p{color: #bbb;  font-size: 12px; font-weight: bold;
+				
+			}
+		}
+	}
 }
